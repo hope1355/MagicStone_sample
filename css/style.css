@@ -1,3 +1,16 @@
-font-family: 'Karla', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Fjalla One', sans-serif;
+/* GENERAL */
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Karla', 'Fjalla One', 'Playfair Display', sans-serif;
+}
+
+.global-wrapper {
+	margin: 0 auto;
+	width: 1210px; /* width 1170 + horizontal padding */
+	padding: 0 20px;
+}
+
